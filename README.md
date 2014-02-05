@@ -8,5 +8,6 @@ To begin a new TDD Kata just ask composer to create a new project based on this 
 ```composer create-project dbellettini/kata-sandbox ~0.1```
 
 ## Running tests
-PHPUnit is embedded in vendor folder, just type
-```bin/phpunit ```
+PHPUnit is embedded in vendor folder, just type:
+
+```bin/phpunit```
