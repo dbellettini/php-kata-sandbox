@@ -13,5 +13,5 @@ PHPUnit is embedded in vendor folder, just type:
 
 ```bin/phpunit ```
 
-## Keep your code style PSR-{1,2} compliant
+## Keep your coding style PSR-{1,2} compliant
 Just copy hooks/pre-commit file to your .git/hooks folder
