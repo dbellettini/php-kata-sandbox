@@ -1,5 +1,6 @@
 {
     "name": "dbellettini/kata-sandbox",
+    "type": "project",
     "keywords": [
         "tdd",
         "phpunit"
