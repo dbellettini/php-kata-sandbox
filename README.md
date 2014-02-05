@@ -7,4 +7,4 @@ This is a simple skeleton for starting TDD in PHP
 
 ## Running tests
 PHPUnit is embedded in vendor folder, just type
-```bin/phpunit```
+```bin/phpunit ```
