@@ -1,6 +1,7 @@
 PHP Kata Sandbox
 ================
-This is a simple skeleton for starting a TDD Kata in PHP
+This is a simple skeleton for starting a TDD Kata in PHP.
+I find this useful when I develop a new PHP library from scratch.
 
 ## Getting started
 To begin a new TDD Kata just ask composer to create a new project based on this repository.
@@ -11,3 +12,6 @@ To begin a new TDD Kata just ask composer to create a new project based on this 
 PHPUnit is embedded in vendor folder, just type:
 
 ```bin/phpunit ```
+
+## Keep your code style PSR-{1,2} compliant
+Just copy hooks/pre-commit to your .git/hooks folder
