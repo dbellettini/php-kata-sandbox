@@ -10,4 +10,4 @@ To begin a new TDD Kata just ask composer to create a new project based on this 
 ## Running tests
 PHPUnit is embedded in vendor folder, just type:
 
-```bin/phpunit```
+```bin/phpunit ```
