@@ -1,6 +1,6 @@
-PHP TDD Sandbox
-===============
-This is a simple skeleton for starting TDD in PHP
+PHP Kata Sandbox
+================
+This is a simple skeleton for starting a TDD Kata in PHP
 
 ## Getting started
 To begin a new TDD Kata just ask composer to create a new project based on this repository.
