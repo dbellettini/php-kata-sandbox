@@ -12,4 +12,4 @@ EOT
     );
 }
 
-$loader->add('Kata\\Tests', __DIR__);
+$loader->add('Kata', __DIR__ . '/unit');
