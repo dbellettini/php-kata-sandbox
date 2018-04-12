@@ -1,4 +1,4 @@
 /.idea
 /phpunit.xml
 /vendor
-php-cs-fixer.phar
+.php_cs.cache

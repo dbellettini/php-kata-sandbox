@@ -1,13 +1,11 @@
 #!/bin/sh
 
 PROJECTROOT=`echo $(cd ${0%/*}/../../ && pwd -P)`/
-FIXER=php-cs-fixer.phar
+FIXER=vendor/bin/php-cs-fixer
 
 if [ ! -e ${PROJECTROOT}${FIXER} ]; then
-	echo "PHP-CS-Fixer not available, downloading to ${PROJECTROOT}${FIXER}..."
-	curl -s http://cs.sensiolabs.org/get/$FIXER > ${PROJECTROOT}${FIXER}
-	echo "Done. First time to check the Coding Standards."
-	echo ""
+	echo "PHP-CS-Fixer not available, please run composer install"
+    exit 1
 fi
 
 RES=`php ${PROJECTROOT}${FIXER} fix $PROJECTROOT --verbose`
