@@ -7,12 +7,12 @@
     convertWarningsToExceptions="true"
     processIsolation="false"
     stopOnFailure="false"
-    syntaxCheck="false"
-    bootstrap="spec/bootstrap.php"
+    syntaxCheck="true"
+    bootstrap="tests/bootstrap.php"
     >
     <testsuites>
         <testsuite name="Project Test Suite">
-            <directory>./spec/</directory>
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
     <filter>
