@@ -5,6 +5,9 @@ return PhpCsFixer\Config::create()
     ->setRules([
         'array_syntax' => ['syntax' => 'short'],
         '@PSR2' => true,
+        'multiline_whitespace_before_semicolons' => [
+            'strategy' => 'new_line_for_chained_calls',
+        ],
     ])
     ->setFinder(
         PhpCsFixer\Finder::create()
