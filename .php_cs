@@ -1,7 +1,7 @@
 <?php
 
 return PhpCsFixer\Config::create()
-    ->setRiskyAllowed(false)
+    ->setRiskyAllowed(true)
     ->setRules([
         '@PSR2' => true,
         '@Symfony' => true,
