@@ -1,6 +1,6 @@
 <?php
 
-return PhpCsFixer\Config::create()
+return new PhpCsFixer\Config()
     ->setRiskyAllowed(true)
     ->setRules([
         '@PSR2' => true,
@@ -14,11 +14,11 @@ return PhpCsFixer\Config::create()
         ],
         'ordered_imports' => true,
         'phpdoc_to_comment' => false,
-        'visibility_required' => ['property', 'method', 'const'],
+        'visibility_required' => ['elements' => ['property', 'method', 'const']],
         'escape_implicit_backslashes' => true,
     ])
     ->setFinder(
-        PhpCsFixer\Finder::create()
+        new PhpCsFixer\Finder()
             ->in(__DIR__ . '/src')
             ->in(__DIR__ . '/tests')
     )
